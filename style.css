@@ -9,9 +9,9 @@ h1{
 .orange-color{
     color: orange;
 }
-section{
+.flexible-container{
     display: flex;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
 }
 .half-width{
     width: 50%;
@@ -21,6 +21,7 @@ img{
     width: 400px;
     border-radius: 100%;
     padding: left 0%;
+    float: right;
 }
 .link-button{
     text-decoration: none;
@@ -30,4 +31,32 @@ img{
     padding: 10px 20px; 
     border-radius: 6px;
     color: white;
+}
+.experience-item{
+    background-color: white;
+    width: 50%;
+    padding: 2%;
+    text-align: justify;
+    border: 1px solid black;
+    border-radius: 8px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.center{
+    text-align: center;
+}
+.expert{
+    text-align: center;
+}
+.half-class{
+    width: 50%;
+    padding: 2%;
+    float: right;
+    
+}
+.img-1{
+    width: 400px;
+    border-radius: 100%;
+    padding: left 0%;
+    float: left;
 }
